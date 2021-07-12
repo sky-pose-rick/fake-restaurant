@@ -1,3 +1,4 @@
+//the home module
 const loadHome = content => {
     content.innerHTML = `<h1 class="box-element">About The Restaurant of Nothingness</h1>
     <img id="home-img" src="img/empty-white-room.jpg" alt="An empty white room">
