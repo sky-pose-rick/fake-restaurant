@@ -1,0 +1,2 @@
+#exclude npm
+node_modules/*
