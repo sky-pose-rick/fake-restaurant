@@ -9,9 +9,14 @@ body{
     background-color: gray;
 }
 
+#nav-bar {
+    background-color: black;
+}
+
 #nav-bar li {
 	border: solid;
 	padding: 10px;
+    background-color: #d2d2d2;
 }
 
 #nav-bar ul {
@@ -20,15 +25,30 @@ body{
 	width: max-content;
 }
 
+.box-element {
+	border: solid;
+    text-align: center;
+    background-color: #d2d2d2;
+    padding: 10px;
+    margin: 10px auto 10px auto;
+    width: 50%;
+}
+
 h1 {
-	text-align: center;
-	border: solid;
+    border: solid;
+    text-align: center;
+    background-color: #d2d2d2;
+    padding: 10px;
+    margin: 0px auto 10px auto;
 }
 
-#remark {
-	border: solid;
+.menu-title{
+    text-decoration: underline;
 }
 
-#description {
-	border: solid;
+.menu-item {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
